@@ -1,0 +1,6 @@
+{
+    "Question": ["What is the capital of France?", "What is dplyr?"],
+    "Model_Answer": ["Paris is the Capital of France", "A data manipulation package in R"],
+    "Student_Answer": ["paris", "it helps manipulate data"]
+  }
+  

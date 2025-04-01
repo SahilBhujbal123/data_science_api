@@ -1,0 +1,20 @@
+curl -X POST "http://127.0.0.1:8000/score_csv" -F "file=@C:/Users/Sahil/Desktop/RDA5/test.csv"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+r <- plumber::plumb("api_json.R")
+r$run(port = 8000)           
